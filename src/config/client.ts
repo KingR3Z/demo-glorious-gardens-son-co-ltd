@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "9",
 
   // Services
   services: [
@@ -79,9 +79,15 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Denver McIntyre", rating: 5, text: "New My interaction with Glorious Garden Son & Co. Ltd. was excellent. Throughout the process, the team was kind, professional, and easy to get in touch with. Everything was completed on schedule. Their attention to detail and general calibre of work", date: "2 weeks ago" },
+    { name: "Tommy Jones", rating: 5, text: "Very pleased with the work the day was not good weather worked hard all day so pleased with the removal of the big clump of bamboo would recommend them to family and friends ", date: "4 months ago" },
+    { name: "Scott Brazil", rating: 5, text: "Glorious Gardens Son & Co Ltd took on a commercial site clearance. They removed all overgrowth, repaired fencing, and laid new turf. They also washed the paved entrance so it’s safe and smart. ", date: "3 months ago" },
+    { name: "Hiten Patel", rating: 5, text: "Used for the first time and couldn’t be happier. The garden looks spotless – hedges trimmed neatly, lawn mowed, and weeds cleared. Great communication and very professional. ", date: "4 months ago" },
+    { name: "Cyril Adcock", rating: 5, text: "Glories Garden Son & Co Ltd replaced an old delivery with a new block-paved one, installed a garden gate, and planted fresh borders. They also moved the lawn and cleaned the gutters. Great work and attention to detail. ", date: "6 months ago" },
+    { name: "Peanutbutterjamjelly", rating: 5, text: "Lorenzo and his team removed and installed new fences. The new fenced had concrete posts and gravel boards. It was a big job and they managed to finish it within two days. They also cleaned up everything after they finished. Our neighbours …  ", date: "9 months ago" },
+    { name: "Sharon Brown", rating: 5, text: "Glorious Gardens Son & Co Co completely transformed our commercial property grounds. They installed a new patio area, trimmed the hedges, and re-laid turf across the entrance lawn. They also repaired a broken gates and clean the gutters. The place no", date: "7 months ago" },
+    { name: "Yasemin Mae", rating: 5, text: "Lorenzo and his team did an amazing job on my garden! They’re so understanding and helpful. My garden was a mess before they came and they managed to get rid of all the brambles that were attacking my lawn. Not only that, they took the …  ", date: "10 months ago" },
+    { name: "Adrian Adcock", rating: 5, text: "Glorious Gardens Son & Co Ltd cleared an overgrown back garden, installed a concrete base for a shed, and laid a new patio. They also trimmed hedges and mowed the lawn. ", date: "6 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
